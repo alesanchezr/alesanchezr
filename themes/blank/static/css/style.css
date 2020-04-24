@@ -1,0 +1,10 @@
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+li{ list-style: square;}
+ul{ padding-left: 10px; }
+i.em {
+    font-size: 65%;
+    margin-bottom: 3px;
+}
+.centered{ transform: translateY(-50%); margin-top: 50vh;}

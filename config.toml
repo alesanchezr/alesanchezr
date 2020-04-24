@@ -1,0 +1,14 @@
+name = "Alejandro Sanchez"
+license = "MIT"
+licenselink = "https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme/blob/master/LICENSE"
+description = "Personal Website for Alejandro Sanchez R"
+homepage = "https://alesanchezr.com"
+tags = ["home", "blog", "tags", "bootstrap", "minimal", "clean", "simple", "feather"]
+features = ["home", "blog", "tags", "bootstrap", "minimal", "clean", "simple", "feather"]
+theme = "blank"
+
+enableEmoji = true
+
+[author]
+  name = "Alejandro Sanchez"
+  homepage = "https://alesanchezr.com/"
