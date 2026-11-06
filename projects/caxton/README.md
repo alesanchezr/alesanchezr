@@ -20,7 +20,7 @@ Named after William Caxton, who brought the printing press to England. The idea 
 | Capabilities / agent roles | 40 capabilities, 8 agent roles, 6 staff roles |
 | Validators | 53, covering ~220 issue codes, with 12 auto-fixers |
 | Test files | 717 (~6,000 test cases) |
-| Code commits in 12 months | 12,039 (plus 9,335 automated content commits) |
+| Commits in 12 months | 12,039 |
 
 Sources and dates are listed under [Results](#results).
 
@@ -216,7 +216,7 @@ The codebase is set up so coding agents can work on it safely:
 | Share of content by agents | ~90% with human review, ~30% fully autonomous | Author's estimate, Nov 2026 |
 | Hosting | $25/month (before: free Vercel tier, which couldn't host agents) | Author, Nov 2026 |
 | Codebase | ~609k lines of TypeScript (excluding tests), 717 test files | Repo, 6 Nov 2026 |
-| Commits | 12,039 code commits plus 9,335 automated content commits, 14 Nov 2025 to 5 Nov 2026 | Git history, 6 Nov 2026 |
+| Commits | 12,039, 14 Nov 2025 to 5 Nov 2026 (site content now lives in separate per-site repos and is not counted) | Git history, 6 Nov 2026 |
 
 ---
 
@@ -227,7 +227,7 @@ The codebase is set up so coding agents can work on it safely:
 | Nov 2025 | First commit. Component registry with Zod schemas |
 | Dec 2025 | Validation framework |
 | Jan 2026 | GitHub sync without the git CLI |
-| Feb 2026 | Cloud media storage, auto-commit queue, hreflang. Peak month: 5,793 commits |
+| Feb 2026 | Cloud media storage, auto-commit queue, hreflang. Peak month: 3,823 commits |
 | Mar 2026 | AI chat layer, image optimization pipeline |
 | May 2026 | **MCP server** and OAuth for the Claude.ai connector. RBAC, capabilities, versioning, products, vector search |
 | Jun 2026 | Multi-site: one content repo per site |
@@ -241,7 +241,7 @@ The codebase is set up so coding agents can work on it safely:
 
 ## My role
 
-I designed the architecture and led development. Of the 12,039 code commits, I wrote about 5,500 (46%) across two accounts. Part of the early work was done with Replit's AI agent (859 commits).
+I designed the architecture and led development. Of the 12,039 commits, I wrote about 5,500 (46%) across two accounts. Part of the early work was done with Replit's AI agent (859 commits).
 
 **Main collaborator:** [Alejandro Jiménez Morales](https://www.linkedin.com/in/alejandro-jimenez-morales/), about 4,100 commits (34%).
 **Other contributors:** Omar Hidalgo, Luis Miguel Del Valle, Wafic Mikati.
