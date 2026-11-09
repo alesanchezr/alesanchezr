@@ -243,6 +243,10 @@ The codebase is set up so coding agents can work on it safely:
 
 I am the sole architect of Caxton and its main contributor.
 
+Every technical and architectural decision was mine: storage formats, libraries, the queue strategy, the caching strategy, performance optimization, logging and observability, and the MCP server architecture.
+
+The code was written with AI assistance, fully supervised: I directed it and read every change myself. That is the same model Caxton applies to content: AI does the volume, and a human owns the decisions and the review.
+
 | Contributor | Code lines added | Share | Lines in today's codebase | Share |
 |---|---|---|---|---|
 | **Alejandro Sánchez (me)** | 784,660 | **79%** | 623,243 | **85%** |
