@@ -2,7 +2,7 @@
 
 > A self-hosted, Git-backed CMS where AI agents run the website through the same validated pipeline as the human team. It runs [4geeks.com](https://4geeks.com).
 
-**Years:** Nov 2025 to present · **Role:** creator and lead engineer · **License:** MIT · **Repo:** [breatheco-de/caxton-cms](https://github.com/breatheco-de/caxton-cms)
+**Years:** Nov 2025 to present · **Role:** sole architect, main contributor (79% of code) · **License:** MIT · **Repo:** [breatheco-de/caxton-cms](https://github.com/breatheco-de/caxton-cms)
 
 Named after William Caxton, who brought the printing press to England. The idea is the same: own the press. Your pages live in your Git repo, your components are your code, and your agents edit the same YAML your team does.
 
@@ -241,10 +241,17 @@ The codebase is set up so coding agents can work on it safely:
 
 ## My role
 
-I designed the architecture and led development. Of the 12,039 commits, I wrote about 5,500 (46%) across two accounts. Part of the early work was done with Replit's AI agent (859 commits).
+I am the sole architect of Caxton and its main contributor.
 
-**Main collaborator:** [Alejandro Jiménez Morales](https://www.linkedin.com/in/alejandro-jimenez-morales/), about 4,100 commits (34%).
-**Other contributors:** Omar Hidalgo, Luis Miguel Del Valle, Wafic Mikati.
+| Contributor | Code lines added | Share | Lines in today's codebase | Share |
+|---|---|---|---|---|
+| **Alejandro Sánchez (me)** | 784,660 | **79%** | 623,243 | **85%** |
+| [Alejandro Jiménez Morales](https://www.linkedin.com/in/alejandro-jimenez-morales/) | 149,564 | 15% | 76,659 | 10.5% |
+| Replit Agent | 29,931 | 3% | 17,302 | 2.4% |
+| Luis Miguel Del Valle | 13,427 | 1% | 6,308 | 0.9% |
+| Omar Hidalgo | 14,401 | 1% | 4,738 | 0.6% |
+
+How these were measured (6 Nov 2026): code files only (`.ts`, `.tsx`, `.js`, `.css`, `.sh`), each person's accounts merged, excluding site content, lockfiles, data dumps and model files. "Lines in today's codebase" is `git blame` over all 2,680 code files (~732k lines). By commit count the split is closer (about 5,500 commits for me, 4,100 for Alejandro Jiménez, of 12,039), because many of my commits are large.
 
 ## Evidence
 

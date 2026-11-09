@@ -4,7 +4,7 @@ Technical write-ups of systems, architectures, products and papers I have built.
 
 | # | Project | Years | Category | One line | Role | Status |
 |---|---|---|---|---|---|---|
-| 1 | [Caxton CMS](caxton/README.md) | 2025 to present | System, open source (MIT) | A Git-backed CMS where AI agents edit the website through the same validated pipeline as humans. Runs 4geeks.com. | Creator, lead engineer | Written |
+| 1 | [Caxton CMS](caxton/README.md) | 2025 to present | System, open source (MIT) | A Git-backed CMS where AI agents edit the website through the same validated pipeline as humans. Runs 4geeks.com. | Sole architect, 79% of code | Written |
 
 ## How each write-up is structured
 
