@@ -4,14 +4,14 @@ Technical write-ups of systems, architectures, products and papers I have built.
 
 | # | Project | Years | Category | One line | Role | Status |
 |---|---|---|---|---|---|---|
-| 1 | [Caxton CMS](caxton/README.md) | 2025 to present | System, open source (MIT) | A Git-backed CMS where AI agents edit the website through the same validated pipeline as humans. Runs 4geeks.com. | Sole architect, 79% of code | Written |
+| 1 | [Caxton CMS](caxton/README.md) | 2025 to present | Platform, open source (MIT) | Agent-native CMS where a governed AI agent team authors 100% of content changes on 4geeks.com; 1,022 changes applied in 8 weeks on a $25/month server. | Sole architect, 79% of code | Written |
 
 ## How each write-up is structured
 
-1. **Summary**: what it is and the headline results.
-2. **The problem**: why it had to exist.
-3. **Architecture**: how it works, with diagrams.
-4. **Key decisions**: what I chose, what I rejected, and why.
-5. **Results**: numbers with their source and date.
-6. **My role**: what I built and who I built it with.
-7. **Evidence**: repos, live systems, docs.
+Each project folder has three documents:
+
+- **README.md (overview):** a 2-minute read with headline metrics, context, my role and the main outcomes.
+- **TECHNICAL.md:** system context, requirements, Architecture Decision Records, scalability, reliability, security, quality engineering, trade-offs and lessons learned.
+- **PRODUCT.md:** problem, users, positioning, Product Decision Records, roadmap, rollout, success metrics and what I would do differently.
+
+Every metric lists its source, the date it was measured, and whether it is measured, derived or estimated.
