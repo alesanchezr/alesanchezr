@@ -4,7 +4,7 @@ Technical write-ups of systems, architectures, products and papers I have built.
 
 | # | Project | Years | Category | One line | Role | Status |
 |---|---|---|---|---|---|---|
-| 1 | [Caxton CMS](caxton/README.md) | 2025 to present | Platform, open source (MIT) | Agent-native CMS where a governed AI agent team authors 100% of content changes on 4geeks.com; 1,022 changes applied in 8 weeks on a $25/month server. | Sole architect, 79% of code | Written |
+| 1 | [Caxton CMS](caxton/README.md) | 2025 to present | Platform, open source (MIT) | Agent-native CMS where a governed AI agent team authors 100% of content changes on 4geeks.com; 1,022 changes applied in 8 weeks on a $25/month server. | Sole architect, technical lead | Written |
 
 ## How each write-up is structured
 

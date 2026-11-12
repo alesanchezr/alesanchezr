@@ -12,7 +12,7 @@
 | Changes applied | 1,022 in 8 weeks, ~124 per week |
 | Median time from proposal to live (edits) | 3 minutes (92% within 24 hours) |
 | Blog posts updated | 180 of 326 (55%) in 10 weeks |
-| Organic search clicks | +135% from July to October 2026 |
+| Organic search clicks | +135% from July to October 2026 (still 31% below October 2025) |
 | Platform cost | $25/month |
 
 Sources and metric types are listed under [Results](#results).

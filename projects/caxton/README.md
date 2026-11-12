@@ -4,7 +4,7 @@
 
 > I architected and built an agent-native content platform that lets a governed team of AI agents operate a production website. On 4geeks.com, agents now author 100% of content changes and apply a median edit 3 minutes after filing, on a $25/month server.
 
-**Nov 2025 to present** · **Role:** sole architect and main contributor (79% of code) · **License:** MIT · **Repo:** [breatheco-de/caxton-cms](https://github.com/breatheco-de/caxton-cms) · **Live:** [4geeks.com](https://4geeks.com)
+**Nov 2025 to present** · **Role:** sole architect and technical lead · **License:** MIT · **Repo:** [breatheco-de/caxton-cms](https://github.com/breatheco-de/caxton-cms) · **Live:** [4geeks.com](https://4geeks.com)
 
 ## Metrics at a glance
 
@@ -23,9 +23,11 @@
 
 ## My role and scope
 
-I am the sole architect of Caxton and its main contributor. Every technical and architectural decision was mine: storage formats, libraries, queue and caching strategy, performance optimization, logging and observability, and the MCP server architecture. I also set the product direction and the agent operating model.
+I am the sole architect of Caxton. Every technical and architectural decision was mine: storage formats, libraries, queue and caching strategy, performance optimization, logging and observability, and the MCP server architecture. I also set the product direction and the agent operating model.
 
 The code was written with AI assistance under my full supervision: I directed it and reviewed every change. It is the same model Caxton applies to content: AI produces the volume, and a human owns the decisions and the review.
+
+Ownership of the codebase, for reference:
 
 | Contributor | Code lines added | Share | Lines in current codebase | Share |
 |---|---|---|---|---|
@@ -43,7 +45,7 @@ The code was written with AI assistance under my full supervision: I directed it
 2. **Governance enforced in code, not in prompts.** Least-privilege RBAC (40 capabilities, role-scoped MCP connectors), separation of duties that blocks a model from approving its own work, and optimistic concurrency control on every change. [Technical, ADR-04 and ADR-06](TECHNICAL.md#4-architecture-decision-records)
 3. **Speed without losing control.** Median proposal-to-live time of 3 minutes; 92% of edits live within 24 hours; 19% of edits corrected through review before publishing. [Product, results](PRODUCT.md#results)
 4. **Enterprise patterns at startup cost.** Transactional outbox, event-driven cache invalidation, distributed leases with fencing tokens and atomic releases, all on one $25/month VPS with no managed services. [Technical, ADR-07](TECHNICAL.md#adr-07-embedded-sqlite-a-transactional-outbox-and-a-local-job-queue)
-5. **Search growth.** Organic clicks up 135% from July to October 2026 as the agent pipeline came online, with October impressions up 41% year over year and a 97.3/100 on-page SEO score. [Product, results](PRODUCT.md#results)
+5. **Search recovery.** Organic clicks rose 135% from July to October 2026 as the agent pipeline came online, and October impressions were up 41% year over year. Clicks are still 31% below October 2025, after a decline in the first half of 2026. On-page SEO score: 97.3/100. [Product, results](PRODUCT.md#results)
 
 ## Read more
 

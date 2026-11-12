@@ -8,12 +8,12 @@
 
 | Metric | Value |
 |---|---|
-| Codebase | ~732k lines of TypeScript across 2,680 source files, 717 test files |
 | Agent interface | 81 MCP tools, 40 capabilities, 8 agent roles, 6 staff roles |
 | Governed agent throughput | 1,457 proposals filed in 8 weeks, 1,022 applied, 4.8% rejection rate |
 | Quality gates | 53 validators, ~220 issue codes, 12 auto-fixers, 31 review rules |
 | On-page SEO score | 97.3 / 100, 0 high-severity issues (20-page sample, 19 templates) |
 | Infrastructure | 1 VPS, 4 supervised processes, $25/month, no managed services |
+| Test coverage | 717 test files, ~6,000 test cases |
 
 All values are measured as of 9 to 10 Nov 2026 unless marked otherwise. See [Results](#results) for sources.
 
